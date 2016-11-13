@@ -35,6 +35,10 @@
         <meta property="og:image" content="<%= theme.cover %>"/>
     <% } %>
 
+    <!-- Fonts -->
+    <link rel="stylesheet" type="text/css"
+                           href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900">
+
     <!-- Title -->
     <%
         var title = [];
@@ -70,5 +74,12 @@
 
     <!-- Google Analytics -->
     <%- partial('google-analytics') %>
+
+    <!-- Redirect http to https -->
+    <script type="text/javascript">
+        var host = "kiwineko.tech";
+        if ((host == window.location.host) && (window.location.protocol != "https:"))
+            window.location.protocol = "https";
+    </script>
 
 </head>
