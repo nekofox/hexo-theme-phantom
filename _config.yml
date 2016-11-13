@@ -23,7 +23,7 @@ default_post_title: Untitled
 default_cover_index: "//placehold.it/450x450"
 
 # Default post cover index page (Optional)
-default_cover_detail:
+default_cover_detail: "//placehold.it/450x450"
 
 # Show Dates for posts and pages
 show_dates:
@@ -31,24 +31,18 @@ show_dates:
 # Comments. Choose one by filling up the information
 comments:
   # Disqus comments
-  disqus_shortname: klugjo
+  # disqus_shortname: kiwineko
   # Facebook comments
   facebook:
-    appid:
+    appid: 1783072618647032
     comment_count: 5
     comment_colorscheme: light
 
 # Google Analytics Tracking ID
-google_analytics:
+google_analytics: UA-87314567-1
 
 # Social Accounts
-twitter_url: https://twitter.com/?lang=en
-facebook_url: https://www.facebook.com/
-instagram_url: https://www.instagram.com/
-dribble_url: https://dribbble.com/
+facebook_url: https://www.facebook.com/kiwineko.tech
 github_url: https://github.com/klugjo/hexo-theme-phantom/commits?author=klugjo
-googleplus_url: https://plus.google.com/
-behance_url: https://www.behance.net/
-fivehundredpx_url: https://500px.com/
 email_url: \#
-rss_url: \#
+rss_url: /atom.xml
